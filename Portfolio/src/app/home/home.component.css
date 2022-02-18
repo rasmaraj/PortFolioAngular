@@ -1,0 +1,23 @@
+.p-profile{
+    background:url(/assets/img/Cover.jpg);
+    width:100%;
+    height:495px;
+}
+.p-tag{
+    color:#fff;
+    padding:5px 10px;
+    font-size:14px;
+    background:#989898;
+}
+.p-desc{
+    color:#acacac;
+    width:80%;
+}
+.p-right-spec{display: flex;flex-direction:column;justify-content:space-between;}
+.p-readmore{
+    color:#000;
+    font-size:20px;
+    font-weight:600;
+}
+.p-readmore i{transition:all .5s;transform:translateX(0);}
+.p-readmore:hover i{transform:translateX(5px);}
